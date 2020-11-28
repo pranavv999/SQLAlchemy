@@ -1,0 +1,7 @@
+CREATE ROLE pranav WITH LOGIN ENCRYPTED PASSWORD 'password';
+CREATE DATABASE un_population OWNER pranav;
+CREATE DATABASE pranav OWNER pranav;
+/*
+CREATE ROLE pranav WITH LOGIN ENCRYPTED PASSWORD 'password';
+CREATE DATABASE un_population OWNER pranav;
+*/
